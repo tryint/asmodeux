@@ -1,0 +1,20 @@
+<!-- Begin:_MemoList -->{_request_.all}
+<h1>Заметки</h1>
+<!-- Begin:MemoList -->
+<p><font size="-1">{Published}</font>&nbsp;&nbsp;&nbsp;<a href="/{_global_.z}/memos/{id}">{Title}</a></p>
+<!-- End:MemoList -->
+<!-- End:_MemoList -->
+
+<!-- Begin:MemoOne -->
+<center>
+<h1>{Title}</h1>
+</center>
+{MemoText}
+<p><font color="gray" size="-1">Опубликовано: {Published}</font></p>
+<table width="100%">
+<tr>
+<td><!-- Begin:MemoPrev --><a title="Опубликовано: {Published}" href="/{_global_.z}/memos/{MemoPrev}">&larr; {Title}</a><!-- End:MemoPrev --></td>
+<td align="right"><!-- Begin:MemoNext --><a title="Опубликовано: {Published}" href="/{_global_.z}/memos/{MemoNext}">{Title} &rarr;</a><!-- End:MemoNext --></td>
+</tr>
+</table>
+<!-- End:MemoOne -->
